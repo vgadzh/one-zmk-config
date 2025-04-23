@@ -68,7 +68,7 @@ layers:
   - ↓
   - ↑
   - →
-  - Insert
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
