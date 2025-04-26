@@ -126,9 +126,9 @@ layers:
   - ''
   - Reset
   - {type: held}
-  - ''
   - {t: ▽, type: trans}
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
 combos:
@@ -139,7 +139,7 @@ combos:
 - p: [28, 29]
   k: '{'
 - p: [3, 4]
-  k: '`'
+  k: ESCAPE
 - p: [6, 7]
   k: ']'
 - p: [18, 19]
@@ -156,3 +156,11 @@ combos:
   k: \
 - p: [20, 21]
   k: ''''
+- p: [15, 16]
+  k: '`'
+- p: [32, 33]
+  k: LEFT COMMAND
+- p: [25, 26]
+  k: LEFT ALT
+- p: [26, 27]
+  k: Ctrl
