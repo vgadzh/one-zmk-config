@@ -76,7 +76,7 @@
         };
 
         r7 {
-            bindings = <&kp NON_US_BACKSLASH>;
+            bindings = <&kp BACKSLASH>;
             key-positions = <8 9>;
         };
 
