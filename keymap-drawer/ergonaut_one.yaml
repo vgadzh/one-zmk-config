@@ -1,8 +1,8 @@
 layout: {zmk_keyboard: ergonaut_one}
 layers:
   MAIN: [ESCAPE, Q, W, E, R, T, Y, U, I, O, P, BACKSPACE, Caps Lock, A, S, D, F, G, H, J, K, L, ;, ENTER, LEFT SHIFT, Z, X, C, V, B, N, M, ',', ., /, LEFT SHIFT,
-    SYM, LCMD, ␣, Ctrl, LEFT ALT, NUM]
-  SYM:
+    '1', LCMD, ␣, Ctrl, LEFT ALT, '2']
+  '1':
   - {t: ▽, type: trans}
   - '1'
   - '2'
@@ -15,7 +15,7 @@ layers:
   - '9'
   - '0'
   - DELETE
-  - {t: ▽, type: trans}
+  - ↹
   - ''
   - ''
   - ''
@@ -45,7 +45,7 @@ layers:
   - Left Click
   - Middle Click
   - Right Click
-  NUM:
+  '2':
   - F1
   - F2
   - F3
@@ -58,7 +58,7 @@ layers:
   - F10
   - F11
   - F12
-  - {t: ▽, type: trans}
+  - ↹
   - ''
   - ''
   - ''
@@ -88,7 +88,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  ADJ:
+  '3':
   - Boot
   - '&studio_unlock'
   - ''
