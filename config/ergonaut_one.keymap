@@ -40,11 +40,6 @@
             key-positions = <28 29>;
         };
 
-        l4 {
-            bindings = <&kp ESCAPE>;
-            key-positions = <3 4>;
-        };
-
         r1 {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <6 7>;
@@ -58,11 +53,6 @@
         r3 {
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <30 31>;
-        };
-
-        r4 {
-            bindings = <&kp ESCAPE>;
-            key-positions = <7 8>;
         };
 
         r5 {
@@ -105,11 +95,6 @@
             key-positions = <26 27>;
         };
 
-        l8 {
-            bindings = <&kp TAB>;
-            key-positions = <0 1>;
-        };
-
         l9 {
             bindings = <&kp NUMBER_4>;
             key-positions = <13 14>;
@@ -128,7 +113,7 @@
             display-name = "MAIN";
             bindings = <
 &kp ESCAPE      &kp Q  &kp W  &kp E  &kp R     &kp T      &kp Y      &kp U         &kp I      &kp O    &kp P     &kp BACKSPACE
-&kp CAPS        &kp A  &kp S  &kp D  &kp F     &kp G      &kp H      &kp J         &kp K      &kp L    &kp SEMI  &kp ENTER
+&kp TAB         &kp A  &kp S  &kp D  &kp F     &kp G      &kp H      &kp J         &kp K      &kp L    &kp SEMI  &kp ENTER
 &kp LEFT_SHIFT  &kp Z  &kp X  &kp C  &kp V     &kp B      &kp N      &kp M         &kp COMMA  &kp DOT  &kp FSLH  &kp LEFT_SHIFT
                               &mo 1  &kp LCMD  &kp SPACE  &kp LCTRL  &kp LEFT_ALT  &mo 2
             >;
@@ -137,20 +122,20 @@
         lower_layer {
             display-name = "1";
             bindings = <
-&trans   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6    &kp NUMBER_7    &kp NUMBER_8  &kp NUMBER_9     &kp NUMBER_0  &kp DELETE
-&kp TAB  &none         &none         &none         &none         &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &none         &trans
-&trans   &none         &none         &none         &none         &msc SCRL_DOWN  &none           &none           &none         &none            &none         &trans
-                                     &trans        &trans        &trans          &mkp LCLK       &mkp MCLK       &mkp RCLK
+&trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6    &kp NUMBER_7    &kp NUMBER_8  &kp NUMBER_9     &kp NUMBER_0  &kp DELETE
+&kp CAPSLOCK  &none         &none         &none         &none         &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &none         &trans
+&trans        &none         &none         &none         &none         &msc SCRL_DOWN  &none           &none           &none         &none            &none         &trans
+                                          &trans        &trans        &trans          &mkp LCLK       &mkp MCLK       &mkp RCLK
             >;
         };
 
         raise_layer {
             display-name = "2";
             bindings = <
-&kp F1   &kp F2  &kp F3  &kp F4  &kp F5           &kp F6     &kp F7    &kp F8    &kp F9   &kp F10    &kp F11  &kp F12
-&kp TAB  &none   &none   &none   &kp PRINTSCREEN  &kp PG_UP  &kp LEFT  &kp DOWN  &kp UP   &kp RIGHT  &none    &trans
-&trans   &none   &none   &none   &none            &kp PG_DN  &kp HOME  &kp END   &kp INS  &none      &none    &trans
-                         &trans  &trans           &trans     &trans    &trans    &trans
+&kp F1        &kp F2  &kp F3  &kp F4  &kp F5           &kp F6     &kp F7    &kp F8    &kp F9   &kp F10    &kp F11  &kp F12
+&kp CAPSLOCK  &none   &none   &none   &kp PRINTSCREEN  &kp PG_UP  &kp LEFT  &kp DOWN  &kp UP   &kp RIGHT  &none    &trans
+&trans        &none   &none   &none   &none            &kp PG_DN  &kp HOME  &kp END   &kp INS  &none      &none    &trans
+                              &trans  &trans           &trans     &trans    &trans    &trans
             >;
         };
 
