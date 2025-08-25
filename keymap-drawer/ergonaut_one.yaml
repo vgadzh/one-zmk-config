@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: ergonaut_one}
 layers:
-  MAIN: [ESCAPE, Q, W, E, R, T, Y, U, I, O, P, BACKSPACE, ↹, A, S, D, F, G, H, J, K, L, ;, ENTER, LEFT SHIFT, Z, X, C, V, B, N, M, ',', ., /, LEFT SHIFT, '1', LCMD,
+  MAIN: [ESCAPE, Q, W, E, R, T, Y, U, I, O, P, BACKSPACE, ↹, A, S, D, F, G, H, J, K, L, ;, ENTER, LEFT SHIFT, Z, X, C, V, B, N, M, ',', ., /, RIGHT SHIFT, '1', LCMD,
     ␣, Ctrl, LEFT ALT, '2']
   '1':
   - {t: ▽, type: trans}
@@ -154,13 +154,3 @@ combos:
   k: ''''
 - p: [15, 16]
   k: '`'
-- p: [32, 33]
-  k: LEFT COMMAND
-- p: [25, 26]
-  k: LEFT ALT
-- p: [26, 27]
-  k: Ctrl
-- p: [13, 14]
-  k: '4'
-- p: [1, 2]
-  k: '8'

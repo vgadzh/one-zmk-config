@@ -79,31 +79,6 @@
             bindings = <&kp GRAVE>;
             key-positions = <15 16>;
         };
-
-        r9 {
-            bindings = <&kp LEFT_COMMAND>;
-            key-positions = <32 33>;
-        };
-
-        l6 {
-            bindings = <&kp LEFT_ALT>;
-            key-positions = <25 26>;
-        };
-
-        l7 {
-            bindings = <&kp LCTRL>;
-            key-positions = <26 27>;
-        };
-
-        l9 {
-            bindings = <&kp NUMBER_4>;
-            key-positions = <13 14>;
-        };
-
-        l10 {
-            bindings = <&kp NUMBER_8>;
-            key-positions = <1 2>;
-        };
     };
 
     keymap {
@@ -114,7 +89,7 @@
             bindings = <
 &kp ESCAPE      &kp Q  &kp W  &kp E  &kp R     &kp T      &kp Y      &kp U         &kp I      &kp O    &kp P     &kp BACKSPACE
 &kp TAB         &kp A  &kp S  &kp D  &kp F     &kp G      &kp H      &kp J         &kp K      &kp L    &kp SEMI  &kp ENTER
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C  &kp V     &kp B      &kp N      &kp M         &kp COMMA  &kp DOT  &kp FSLH  &kp LEFT_SHIFT
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C  &kp V     &kp B      &kp N      &kp M         &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
                               &mo 1  &kp LCMD  &kp SPACE  &kp LCTRL  &kp LEFT_ALT  &mo 2
             >;
         };
